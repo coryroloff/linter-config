@@ -22,7 +22,19 @@ module.exports = {
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/explicit-member-accessibility': 'off',
 		'@typescript-eslint/explicit-module-boundary-types': 'error',
-		'@typescript-eslint/member-delimiter-style': [ 'error', 'none' ],
+		'@typescript-eslint/member-delimiter-style': [
+			'error',
+			{
+				multiline: {
+					delimiter: 'none',
+					requireLast: false
+				},
+				singleline: {
+					delimiter: 'none',
+					requireLast: false
+				}
+			}
+		],
 		'@typescript-eslint/member-ordering': 'error',
 		'@typescript-eslint/naming-convention': 'error',
 		'@typescript-eslint/no-base-to-string': 'error',
