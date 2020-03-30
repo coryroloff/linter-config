@@ -28,10 +28,6 @@ module.exports = {
 				multiline: {
 					delimiter: 'none',
 					requireLast: false
-				},
-				singleline: {
-					delimiter: 'none',
-					requireLast: false
 				}
 			}
 		],
@@ -41,7 +37,6 @@ module.exports = {
 		'@typescript-eslint/no-dynamic-delete': 'error',
 		'@typescript-eslint/no-empty-interface': 'off',
 		'@typescript-eslint/no-extra-non-null-assertion': 'error',
-		'@typescript-eslint/no-extraneous-class': 'error',
 		'@typescript-eslint/no-floating-promises': 'error',
 		'@typescript-eslint/no-implied-eval': 'error',
 		'@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
