@@ -90,7 +90,6 @@ module.exports = {
 		'no-use-before-define': 'error',
 		'callback-return': 'error',
 		'global-require': 'error',
-		'handle-callback-err': 'error',
 		'no-buffer-constructor': 'error',
 		'no-mixed-requires': 'error',
 		'no-new-require': 'error',
