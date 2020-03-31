@@ -121,7 +121,7 @@ module.exports = {
 		'multiline-comment-style': 'error',
 		'multiline-ternary': [ 'error', 'always-multiline' ],
 		'new-cap': 'error',
-		'new-parens': [ 'error', 'never' ],
+		'new-parens': 'error',
 		'newline-per-chained-call': 'error',
 		'no-array-constructor': 'error',
 		'no-bitwise': 'error',
